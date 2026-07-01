@@ -1,0 +1,8 @@
+--#GT01072026 crear tabla demo 
+
+CREATE TABLE dbo.TestDbUp
+(
+    Id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    Fecha DATETIME NOT NULL DEFAULT GETDATE()
+);
+
