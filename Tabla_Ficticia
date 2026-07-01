@@ -1,0 +1,6 @@
+--#GT01072026: otra tabla demo
+
+CREATE TABLE Tabla_Ficticia (
+    Campo1 NVARCHAR(50) NULL,
+    Campo2 NVARCHAR(50) NULL
+);
