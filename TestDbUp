@@ -1,5 +1,8 @@
---#GT01072026 crear tabla demo 
+--#GT01072026 update ficticio
 
+alter table TestDbUp  add user_agr nvarchar(10) null
+
+--#GT01072026 crear tabla demo 
 CREATE TABLE dbo.TestDbUp
 (
     Id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
